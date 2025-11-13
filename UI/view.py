@@ -13,7 +13,7 @@ class View:
         self.page = page
         self.page.title = "Lab08"
         self.page.horizontal_alignment = "center"
-        self.page.theme_mode = ft.ThemeMode.DARK
+        self.page.theme_mode = ft.ThemeMode.LIGHT
 
         # Alert
         self.alert = AlertManager(page)
